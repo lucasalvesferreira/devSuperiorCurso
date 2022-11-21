@@ -26,4 +26,3 @@ Foi utilizado para esse projeto:
 **Desnvolvimento**
 - Intelj
 - Postman 
-- 
