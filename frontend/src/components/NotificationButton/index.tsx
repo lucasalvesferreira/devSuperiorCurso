@@ -10,7 +10,7 @@ type Props = {
         saleId: number;
 }
 function handreClick(id :number){
-    axios(`${BASE_URL}/sales/${id}/notification`)
+    axios(`${BASE_URL}/sales/notification/${id}`)
     .then(response =>{
         toast.info("Sms enviado com sucesso!");
     });

@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" />
+    <envs>
+      <env name="TWILIO_SID" value="ACbc2b3d17d4f2686170bc8dd988ab2569" />
+      <env name="TWILIO_KEY" value="532f3af3aa45ef0589e7d95e206566e2" />
+      <env name="TWILIO_PHONE_FROM" value="+12057975992" />
+      <env name="TWILIO_PHONE_TO" value="+5511967337485" />
+    </envs>
+    <module name="api" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.backend.api.ApiApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
